@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Know your Nationality!!!</h1>
+            <form name="form" id="form">
+                <div class="inp">
+                    <label for="name">Enter Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="submit" id="submit">
+                    <button type="submit" value="submit">Submit</button>
+                </div>
+                
+                <div class="lds-ripple" id="lds-ripple"><div></div><div></div></div>
+                <div class="output" id="output">
+                    <div class="name1" style="display: flex; flex-direction: row;">
+                        <p style="width: 50%;">Name</p>
+                        <p id="name2"></p>
+                    </div>
+                    <div class="countryid" style="display: flex; flex-direction: row;">
+                        <p style="width: 50%;">Country_Code</p>
+                        <p id="country"></p>
+                    </div>
+                    <div class="probab" style="display: flex; flex-direction: row;">
+                        <p style="width: 50%;">Probablity</p>
+                        <p id="probablity"></p>
+                    </div>
+                </div>
+                <button class="tryagain" id="tryagain"> Try Again</button>
+            </form> 
+        </div>
+        <script type = "text/javascript" src="async_await.js"></script>
+    </body>
+</html>
